@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Belajar Javascript</title>
+  </head>
+  <body>
+    <!-- <button type="button" onclick="jalanScript()" name="button">Jalan</button> -->
+    <h1>Belajar Javascript DOM</h1>
+
+    <input id="namaDepan" type="text" value="Alivia">
+    <br>
+    <input id="namaBelakang" type="text" value="Putri">
+    <br>
+    <button type="button" onclick="jalanScript()" name="button">Jalan</button>
+
+    <hr>
+
+    <input class="middle" type="text" value="Alivia">
+     <br>
+     <input class="middle" type="text" value="Putri">
+     <br>
+     <button type="button" onclick="jalanScript2()">Jalan</button>
+    <script type="text/javascript">
+
+      function jalanScript(){
+        console.log(document.getElementById('namaDepan'));
+        console.log(document.getElementById('namaBelakang'));
+      }
+
+      function jalanScript2() {
+        console.log(document.getElementsByClassName('middle'));
+      }
+      // function panggilJavascript() {
+      //   console.log("Menuliskan code javascript internal");
+      // }
+      // function jalanScript() {
+      //   console.log('berjalan');
+      // }
+      // function panggilJS() {
+      //   console.log("Function 2");
+      // }
+      //
+      // panggilJS();
+      // panggilJavascript();
+
+    </script>
+  </body>
+</html>

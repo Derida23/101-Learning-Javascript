@@ -1,1 +1,1 @@
-# belajar-javascript
+# javascript
